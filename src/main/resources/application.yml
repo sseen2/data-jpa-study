@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/datajpa
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    hibernate:
+      # 애플리케이션 로딩시점에 테이블을 드롭하고 다시 생성
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+        # 로그처리 하는게 더 나아서 주석 처리
+        # show_sql: true
+
+logging:
+  level:
+    org.hibernate.sql: debug
+    # 파라미터 바인딩된 파라미터까지 볼 수 있음
+    # org.hibernate.type: trace

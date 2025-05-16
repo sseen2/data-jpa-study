@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="study.data_jpa.DataJpaApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-14T08:30:21.905Z" hostname="gimseeun-ui-MacBookPro.local" time="0.287">
+  <properties/>
+  <testcase name="contextLoads()" classname="study.data_jpa.DataJpaApplicationTests" time="0.287"/>
+  <system-out><![CDATA[17:30:20.712 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [study.data_jpa.DataJpaApplicationTests]: DataJpaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:30:20.759 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration study.data_jpa.DataJpaApplication for test class study.data_jpa.DataJpaApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.5)
+
+2025-05-14T17:30:20.923+09:00  INFO 70348 --- [data-jpa] [    Test worker] study.data_jpa.DataJpaApplicationTests   : Starting DataJpaApplicationTests using Java 17.0.15 with PID 70348 (started by sseen2 in /Users/sseen2/Documents/GitHub/data-jpa-study)
+2025-05-14T17:30:20.923+09:00  INFO 70348 --- [data-jpa] [    Test worker] study.data_jpa.DataJpaApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2025-05-14T17:30:21.129+09:00  INFO 70348 --- [data-jpa] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-14T17:30:21.137+09:00  INFO 70348 --- [data-jpa] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2025-05-14T17:30:21.245+09:00  INFO 70348 --- [data-jpa] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-14T17:30:21.311+09:00  INFO 70348 --- [data-jpa] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:c4132988-7df7-4b26-8c93-fd35f007f60f user=SA
+2025-05-14T17:30:21.313+09:00  INFO 70348 --- [data-jpa] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-14T17:30:21.339+09:00  INFO 70348 --- [data-jpa] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-14T17:30:21.356+09:00  INFO 70348 --- [data-jpa] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-14T17:30:21.368+09:00  INFO 70348 --- [data-jpa] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-14T17:30:21.465+09:00  INFO 70348 --- [data-jpa] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-14T17:30:21.497+09:00  INFO 70348 --- [data-jpa] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-14T17:30:21.625+09:00  INFO 70348 --- [data-jpa] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-14T17:30:21.627+09:00  INFO 70348 --- [data-jpa] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-14T17:30:21.696+09:00  WARN 70348 --- [data-jpa] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-14T17:30:21.899+09:00  INFO 70348 --- [data-jpa] [    Test worker] study.data_jpa.DataJpaApplicationTests   : Started DataJpaApplicationTests in 1.083 seconds (process running for 1.492)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
