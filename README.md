@@ -27,3 +27,5 @@
 ### 5. 쿼리 메소드 기능
 
 #### [메소드 이름으로 쿼리 생성](study/12-메소드-이름으로-쿼리-생성.md)
+
+#### [JPA NamedQuery](study/13-JPA-NamedQuery.md)
