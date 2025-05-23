@@ -32,6 +32,7 @@ public interface MemberRepository extends JpaRepository<Member, Long> {
 - 장점
   - 오타가 발생한다면 애플리케이션 로딩 시점에서 한 번 파싱하기 때문에 바로 예외 발생
     > 기본적으로 정적 쿼리기 때문에 애플리케이션 로딩 시점에 쿼리를 파싱
+    > 
     > -> JPQL을 SQL로 미리 만들어 놓는 과정에서 오타가 있다면 예외가 발생하게 됨
 
 - 실무에서 잘 사용하지 않는 이유
