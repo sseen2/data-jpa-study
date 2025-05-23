@@ -29,3 +29,5 @@
 #### [메소드 이름으로 쿼리 생성](study/12-메소드-이름으로-쿼리-생성.md)
 
 #### [JPA NamedQuery](study/13-JPA-NamedQuery.md)
+
+#### [@Query,리포지토리 메소드에 쿼리 정의하기](study/14-@Query-리포지토리-메소드에-쿼리-정의하기.md)
